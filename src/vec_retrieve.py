@@ -66,7 +66,7 @@ def main():
     emb, meta = load_vec_index(data_dir)
 
     # 2. 加载同一个向量模型（要和 build_vec_index_vec.py 里的一致）
-    model_name = "sentence-transformers/all-MiniLM-L6-v2"
+    model_name = "sentence-transformers/all-mpnet-base-v2"
     print(f"🧠 加载向量模型：{model_name}")
     model = SentenceTransformer(model_name)
 

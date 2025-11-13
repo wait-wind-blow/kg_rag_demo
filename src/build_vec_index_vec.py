@@ -45,7 +45,9 @@ def main():
     print(f"✅ 共读取 {len(docs)} 篇文献")
 
     # 选择一个比较轻的英文向量模型
-    model_name = "sentence-transformers/all-MiniLM-L6-v2"
+    # 换成医学领域向量模型（可以根据需要再改）
+    model_name = "sentence-transformers/all-mpnet-base-v2"
+
     print(f"🧠 加载向量模型：{model_name}")
     model = SentenceTransformer(model_name)
 

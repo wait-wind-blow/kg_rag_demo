@@ -20,8 +20,9 @@ VEC_EMB_PATH = os.path.join("data", "index_vec_emb.npy")
 QUEST_PATH = os.path.join("data", "qa_med_questions.jsonl")
 OUT_CSV = os.path.join("runs", "qa_med_eval_vec.csv")
 
-MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-TOP_K = 20  # 向量检索的文献数，可以以后调参
+MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
+TOP_K = 20
+
 
 
 def f1_score(p: float, r: float) -> float:

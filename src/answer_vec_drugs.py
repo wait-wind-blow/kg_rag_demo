@@ -195,8 +195,10 @@ def main():
         )
 
     # 2. 加载向量模型
-    print("🧠 加载向量模型：sentence-transformers/all-MiniLM-L6-v2")
-    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+    model_name = "sentence-transformers/all-mpnet-base-v2"
+
+    print(f"🧠 加载向量模型：{model_name}")
+    model = SentenceTransformer(model_name)
 
     # 3. 做向量检索
     idx, scores = vec_search(args.query, model, emb, top_k=args.k)

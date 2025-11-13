@@ -1,0 +1,13 @@
+method,K,TP,FP,FN,Precision,Recall,F1,found
+BM25,5,2,0,15,1.0,0.118,0.211,linezolid;vancomycin
+KG+PPR,5,7,0,10,1.0,0.412,0.583,clindamycin;doxycycline;linezolid;rifampin;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+BM25,10,2,0,15,1.0,0.118,0.211,linezolid;vancomycin
+KG+PPR,10,7,0,10,1.0,0.412,0.583,clindamycin;doxycycline;linezolid;rifampin;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+BM25,15,4,0,13,1.0,0.235,0.381,linezolid;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+KG+PPR,15,8,0,9,1.0,0.471,0.64,clindamycin;doxycycline;linezolid;oxacillin;rifampin;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+BM25,20,4,0,13,1.0,0.235,0.381,linezolid;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+KG+PPR,20,9,0,8,1.0,0.529,0.692,cefazolin;clindamycin;doxycycline;linezolid;oxacillin;rifampin;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+BM25,30,7,0,10,1.0,0.412,0.583,clindamycin;linezolid;oxacillin;rifampin;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+KG+PPR,30,9,0,8,1.0,0.529,0.692,cefazolin;clindamycin;doxycycline;linezolid;oxacillin;rifampin;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+BM25,50,7,0,10,1.0,0.412,0.583,clindamycin;linezolid;oxacillin;rifampin;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
+KG+PPR,50,9,0,8,1.0,0.529,0.692,cefazolin;clindamycin;doxycycline;linezolid;oxacillin;rifampin;tetracycline;trimethoprim-sulfamethoxazole;vancomycin
